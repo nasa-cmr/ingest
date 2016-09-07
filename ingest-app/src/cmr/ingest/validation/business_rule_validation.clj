@@ -49,10 +49,11 @@
    ;; implementing CMR-2485.
    ;;  cui/entry-title-searches
    ;;  cui/short-name-version-id-searches
-   aa/additional-attribute-searches
+   ; aa/additional-attribute-searches
    pv/deleted-project-searches
    tv/out-of-range-temporal-searches
-   sv/spatial-param-change-searches])
+   ; sv/spatial-param-change-searches
+   ])
 
 (defn- has-granule-search-error
   "Execute the given has-granule search, returns the error message if there are granules found
